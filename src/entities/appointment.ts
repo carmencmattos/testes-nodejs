@@ -7,19 +7,25 @@ export interface AppointmentProps {
 export class Appointment {
   private props: AppointmentProps
 
-  get customer (): string {
+  get customer () {
     return this.props.customer
   }
 
-  get startsAt (): string {
-    return this.props.customer
+  get startsAt () {
+    return this.props.startsAt
   }
 
-  get endsAt (): string {
-    return this.props.customer
+  get endsAt () {
+    return this.props.endsAt
   }
 
   constructor (props: AppointmentProps) {
+    const { startsAt, endsAt } = props
+
+    if (endsAt <= startsAt) {
+      throw new Error('Invalid end date')
+    }
+
     this.props = props
   }
 }
