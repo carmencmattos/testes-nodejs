@@ -1,10 +1,10 @@
 ## API testável com Node.JS 
 
-Escrevendo testes simples para uma aplicação que realiza agendamento de clientes.
+Escrevendo testes unitários, independentes de frameworks e banco de dados, para uma aplicação que realiza agendamento de clientes.
 
 Uma aplicação que segue bons padrões de projeto e arquitetura deve ser fácil de ser testada.
 
-Tecnologias utilizadas: JavaScript com a plataforma Node.JS, Typescript, ESLint, Vitest. 
+Tecnologias utilizadas: Node.JS, Typescript, ESLint, Vitest. 
 
 Inicialização do projeto com Node: ```npm init -y```
 
@@ -19,3 +19,5 @@ Criado script de teste no package.json:
     "test": "vitest"
   },```
 Para rodar: ```npm run test```
+
+Biblioteca para lidar com datas: ```npm i date-fns```
