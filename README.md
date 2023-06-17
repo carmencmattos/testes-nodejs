@@ -18,6 +18,8 @@ Criado script de teste no package.json:
 ```"scripts": {
     "test": "vitest"
   },```
+  
 Para rodar: ```npm run test```
+
 
 Biblioteca para lidar com datas: ```npm i date-fns```

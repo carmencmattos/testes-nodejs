@@ -4,7 +4,7 @@ import { getFutureDate } from '../tests/utils/get-futute-date';
 
 test('create an appointment', () => {
   const startsAt = getFutureDate('2022-10-10')
-  const endsAt = getFutureDate('2022-10-09')
+  const endsAt = getFutureDate('2022-10-11')
 
   const appointment = new Appointment({
     customer: 'Aurora',
