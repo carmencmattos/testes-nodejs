@@ -14,12 +14,6 @@ Criação de entidades utilizando orientação a objetos, com padrão de classes
 
 Utilizado Vitest como ferramenta de testes: ```npm i vitest -D```
 
-Criado script de teste no package.json: 
-```"scripts": {
-    "test": "vitest"
-  },```
-  
-Para rodar: ```npm run test```
-
+Para rodar o projeto: ```npm run test```
 
 Biblioteca para lidar com datas: ```npm i date-fns```
